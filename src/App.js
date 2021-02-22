@@ -13,7 +13,7 @@ import Table from "./Table";
 import { sortData, prettyPrintStat } from "./util";
 import LineGraph from "./LineGraph";
 import "leaflet/dist/leaflet.css";
-import logo from "./covid-logo.png";
+import logo from "./covid19-logo.png";
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -88,15 +88,19 @@ function App() {
     <div className="app">
       <div className="app__left">
         <div className="app__header">
-          <img src={logo} style={{ width: "50px", height: "50px" }} />
-          <h1>COVID-19 Tracker</h1>
+          <img
+            src={logo}
+            style={{ width: "300px", height: "170px", margin: "-40px" }}
+          />
           <FormControl className="app__dropdown">
             <Select
               variant="outlined"
               onChange={onCountryChange}
               value={country}
             >
-              <MenuItem value="worldwide">Worldwide</MenuItem>
+              <MenuItem value="worldwide">
+                <h4 className="app__right">Worldwide</h4>
+              </MenuItem>
               {countries.map((country) => (
                 <MenuItem value={country.value}>{country.name}</MenuItem>
               ))}
