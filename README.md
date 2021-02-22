@@ -53,24 +53,4 @@ To setup the app for development on your local machine, please follow the instru
    yarn start
    ```
    
-## Screenshots
 
-- Homepage
-
-![Example Screenshots](01.png)<br>
-
-- Country Selection Screen
-
-![Example Screenshots](02.png)<br>
-
-- Coronavirus Cases Screen
- 
-![Example Screenshots](03.png)<br>
-
-- Recovered Screen
-
-![Example Screenshots](04.png)<br>
-
-- Deaths Screen
-
-![Example Screenshots](05.png)<br>
