@@ -8,7 +8,6 @@
 ## Built using -
 * ReactJS
 * Firebase
-* Material-UI
 
 ## Installation
 
