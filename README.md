@@ -1,6 +1,7 @@
 ## COVID-19 Tracker
 
-> Developed a COVID-19 Tracker using react that aims to show the numbers & trends of people affected, recovered and deceased due to COVID-19.
+> Developed a COVID-19 Tracker using ReactJS, and Firebase that aims to help the citizens across the globe by showing the numbers and trends of people affected, recovered, and deceased due to COVID-19.
+
 - Shows Live Cases, Recoveries, Deaths.
 - Shows worldwide cases and Country based cases.
 - Line chart fluctuations. 
