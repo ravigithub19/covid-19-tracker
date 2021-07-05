@@ -17,7 +17,6 @@ To setup the app for development on your local machine, please follow the instru
 
    ```bash
    git clone https://github.com/ravigithub19/covid-19-tracker.git
-   cd covid-19-tracker
    ```
 
 2. Install packages
